@@ -1,0 +1,50 @@
+.note {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+  }
+  
+  .important {
+    border-color: red;
+  }
+  
+  .note .name {
+    font-weight: bold;
+    margin-right: 10px;
+    order: 1;
+    font-size: 25px;
+  }
+  
+  .note .message {
+    margin-right: 10px;
+    order: 2;
+    font-size: 18px;
+  }
+  
+  .note .date {
+    font-size: 0.8em;
+    color: gray;
+    margin-left: 10px;
+    order: 3;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card-body {
+    flex-grow: 1;
+  }
+  
